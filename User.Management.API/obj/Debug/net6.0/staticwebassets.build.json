@@ -1,0 +1,11 @@
+{
+  "Version": 1,
+  "Hash": "rMZSAp/zGLetrp/sqNAJ3Zt09S3OTrYejKNyT8MJMv0=",
+  "Source": "User.Management.API",
+  "BasePath": "_content/User.Management.API",
+  "Mode": "Default",
+  "ManifestType": "Build",
+  "ReferencedProjectsConfiguration": [],
+  "DiscoveryPatterns": [],
+  "Assets": []
+}

@@ -1,0 +1,283 @@
+C:/Users/sociofriend/source/repos/User.Management.API/User.Management.API/bin/Debug/net6.0/appsettings.Development.json
+C:/Users/sociofriend/source/repos/User.Management.API/User.Management.API/bin/Debug/net6.0/appsettings.json
+C:/Users/sociofriend/source/repos/User.Management.API/User.Management.API/bin/Debug/net6.0/User.Management.API.exe
+C:/Users/sociofriend/source/repos/User.Management.API/User.Management.API/bin/Debug/net6.0/User.Management.API.deps.json
+C:/Users/sociofriend/source/repos/User.Management.API/User.Management.API/bin/Debug/net6.0/User.Management.API.runtimeconfig.json
+C:/Users/sociofriend/source/repos/User.Management.API/User.Management.API/bin/Debug/net6.0/User.Management.API.dll
+C:/Users/sociofriend/source/repos/User.Management.API/User.Management.API/bin/Debug/net6.0/User.Management.API.pdb
+C:/Users/sociofriend/source/repos/User.Management.API/User.Management.API/bin/Debug/net6.0/Azure.Core.dll
+C:/Users/sociofriend/source/repos/User.Management.API/User.Management.API/bin/Debug/net6.0/Azure.Identity.dll
+C:/Users/sociofriend/source/repos/User.Management.API/User.Management.API/bin/Debug/net6.0/Humanizer.dll
+C:/Users/sociofriend/source/repos/User.Management.API/User.Management.API/bin/Debug/net6.0/Microsoft.AspNetCore.Authentication.JwtBearer.dll
+C:/Users/sociofriend/source/repos/User.Management.API/User.Management.API/bin/Debug/net6.0/Microsoft.AspNetCore.Cryptography.Internal.dll
+C:/Users/sociofriend/source/repos/User.Management.API/User.Management.API/bin/Debug/net6.0/Microsoft.AspNetCore.Cryptography.KeyDerivation.dll
+C:/Users/sociofriend/source/repos/User.Management.API/User.Management.API/bin/Debug/net6.0/Microsoft.AspNetCore.Identity.EntityFrameworkCore.dll
+C:/Users/sociofriend/source/repos/User.Management.API/User.Management.API/bin/Debug/net6.0/Microsoft.Bcl.AsyncInterfaces.dll
+C:/Users/sociofriend/source/repos/User.Management.API/User.Management.API/bin/Debug/net6.0/Microsoft.Data.SqlClient.dll
+C:/Users/sociofriend/source/repos/User.Management.API/User.Management.API/bin/Debug/net6.0/Microsoft.EntityFrameworkCore.dll
+C:/Users/sociofriend/source/repos/User.Management.API/User.Management.API/bin/Debug/net6.0/Microsoft.EntityFrameworkCore.Abstractions.dll
+C:/Users/sociofriend/source/repos/User.Management.API/User.Management.API/bin/Debug/net6.0/Microsoft.EntityFrameworkCore.Design.dll
+C:/Users/sociofriend/source/repos/User.Management.API/User.Management.API/bin/Debug/net6.0/Microsoft.EntityFrameworkCore.Relational.dll
+C:/Users/sociofriend/source/repos/User.Management.API/User.Management.API/bin/Debug/net6.0/Microsoft.EntityFrameworkCore.SqlServer.dll
+C:/Users/sociofriend/source/repos/User.Management.API/User.Management.API/bin/Debug/net6.0/Microsoft.Extensions.Caching.Abstractions.dll
+C:/Users/sociofriend/source/repos/User.Management.API/User.Management.API/bin/Debug/net6.0/Microsoft.Extensions.Caching.Memory.dll
+C:/Users/sociofriend/source/repos/User.Management.API/User.Management.API/bin/Debug/net6.0/Microsoft.Extensions.Configuration.Abstractions.dll
+C:/Users/sociofriend/source/repos/User.Management.API/User.Management.API/bin/Debug/net6.0/Microsoft.Extensions.DependencyInjection.dll
+C:/Users/sociofriend/source/repos/User.Management.API/User.Management.API/bin/Debug/net6.0/Microsoft.Extensions.DependencyInjection.Abstractions.dll
+C:/Users/sociofriend/source/repos/User.Management.API/User.Management.API/bin/Debug/net6.0/Microsoft.Extensions.DependencyModel.dll
+C:/Users/sociofriend/source/repos/User.Management.API/User.Management.API/bin/Debug/net6.0/Microsoft.Extensions.Identity.Core.dll
+C:/Users/sociofriend/source/repos/User.Management.API/User.Management.API/bin/Debug/net6.0/Microsoft.Extensions.Identity.Stores.dll
+C:/Users/sociofriend/source/repos/User.Management.API/User.Management.API/bin/Debug/net6.0/Microsoft.Extensions.Logging.dll
+C:/Users/sociofriend/source/repos/User.Management.API/User.Management.API/bin/Debug/net6.0/Microsoft.Extensions.Logging.Abstractions.dll
+C:/Users/sociofriend/source/repos/User.Management.API/User.Management.API/bin/Debug/net6.0/Microsoft.Extensions.Options.dll
+C:/Users/sociofriend/source/repos/User.Management.API/User.Management.API/bin/Debug/net6.0/Microsoft.Extensions.Primitives.dll
+C:/Users/sociofriend/source/repos/User.Management.API/User.Management.API/bin/Debug/net6.0/Microsoft.Identity.Client.dll
+C:/Users/sociofriend/source/repos/User.Management.API/User.Management.API/bin/Debug/net6.0/Microsoft.Identity.Client.Extensions.Msal.dll
+C:/Users/sociofriend/source/repos/User.Management.API/User.Management.API/bin/Debug/net6.0/Microsoft.IdentityModel.Abstractions.dll
+C:/Users/sociofriend/source/repos/User.Management.API/User.Management.API/bin/Debug/net6.0/Microsoft.IdentityModel.JsonWebTokens.dll
+C:/Users/sociofriend/source/repos/User.Management.API/User.Management.API/bin/Debug/net6.0/Microsoft.IdentityModel.Logging.dll
+C:/Users/sociofriend/source/repos/User.Management.API/User.Management.API/bin/Debug/net6.0/Microsoft.IdentityModel.Protocols.dll
+C:/Users/sociofriend/source/repos/User.Management.API/User.Management.API/bin/Debug/net6.0/Microsoft.IdentityModel.Protocols.OpenIdConnect.dll
+C:/Users/sociofriend/source/repos/User.Management.API/User.Management.API/bin/Debug/net6.0/Microsoft.IdentityModel.Tokens.dll
+C:/Users/sociofriend/source/repos/User.Management.API/User.Management.API/bin/Debug/net6.0/Microsoft.OpenApi.dll
+C:/Users/sociofriend/source/repos/User.Management.API/User.Management.API/bin/Debug/net6.0/Microsoft.SqlServer.Server.dll
+C:/Users/sociofriend/source/repos/User.Management.API/User.Management.API/bin/Debug/net6.0/Microsoft.Win32.SystemEvents.dll
+C:/Users/sociofriend/source/repos/User.Management.API/User.Management.API/bin/Debug/net6.0/Mono.TextTemplating.dll
+C:/Users/sociofriend/source/repos/User.Management.API/User.Management.API/bin/Debug/net6.0/Swashbuckle.AspNetCore.Swagger.dll
+C:/Users/sociofriend/source/repos/User.Management.API/User.Management.API/bin/Debug/net6.0/Swashbuckle.AspNetCore.SwaggerGen.dll
+C:/Users/sociofriend/source/repos/User.Management.API/User.Management.API/bin/Debug/net6.0/Swashbuckle.AspNetCore.SwaggerUI.dll
+C:/Users/sociofriend/source/repos/User.Management.API/User.Management.API/bin/Debug/net6.0/System.CodeDom.dll
+C:/Users/sociofriend/source/repos/User.Management.API/User.Management.API/bin/Debug/net6.0/System.Configuration.ConfigurationManager.dll
+C:/Users/sociofriend/source/repos/User.Management.API/User.Management.API/bin/Debug/net6.0/System.Drawing.Common.dll
+C:/Users/sociofriend/source/repos/User.Management.API/User.Management.API/bin/Debug/net6.0/System.IdentityModel.Tokens.Jwt.dll
+C:/Users/sociofriend/source/repos/User.Management.API/User.Management.API/bin/Debug/net6.0/System.Memory.Data.dll
+C:/Users/sociofriend/source/repos/User.Management.API/User.Management.API/bin/Debug/net6.0/System.Runtime.Caching.dll
+C:/Users/sociofriend/source/repos/User.Management.API/User.Management.API/bin/Debug/net6.0/System.Security.Cryptography.ProtectedData.dll
+C:/Users/sociofriend/source/repos/User.Management.API/User.Management.API/bin/Debug/net6.0/System.Security.Permissions.dll
+C:/Users/sociofriend/source/repos/User.Management.API/User.Management.API/bin/Debug/net6.0/System.Text.Encodings.Web.dll
+C:/Users/sociofriend/source/repos/User.Management.API/User.Management.API/bin/Debug/net6.0/System.Text.Json.dll
+C:/Users/sociofriend/source/repos/User.Management.API/User.Management.API/bin/Debug/net6.0/System.Windows.Extensions.dll
+C:/Users/sociofriend/source/repos/User.Management.API/User.Management.API/bin/Debug/net6.0/runtimes/unix/lib/net6.0/Microsoft.Data.SqlClient.dll
+C:/Users/sociofriend/source/repos/User.Management.API/User.Management.API/bin/Debug/net6.0/runtimes/win/lib/net6.0/Microsoft.Data.SqlClient.dll
+C:/Users/sociofriend/source/repos/User.Management.API/User.Management.API/bin/Debug/net6.0/runtimes/win-arm/native/Microsoft.Data.SqlClient.SNI.dll
+C:/Users/sociofriend/source/repos/User.Management.API/User.Management.API/bin/Debug/net6.0/runtimes/win-arm64/native/Microsoft.Data.SqlClient.SNI.dll
+C:/Users/sociofriend/source/repos/User.Management.API/User.Management.API/bin/Debug/net6.0/runtimes/win-x64/native/Microsoft.Data.SqlClient.SNI.dll
+C:/Users/sociofriend/source/repos/User.Management.API/User.Management.API/bin/Debug/net6.0/runtimes/win-x86/native/Microsoft.Data.SqlClient.SNI.dll
+C:/Users/sociofriend/source/repos/User.Management.API/User.Management.API/bin/Debug/net6.0/runtimes/win/lib/net6.0/Microsoft.Win32.SystemEvents.dll
+C:/Users/sociofriend/source/repos/User.Management.API/User.Management.API/bin/Debug/net6.0/runtimes/unix/lib/net6.0/System.Drawing.Common.dll
+C:/Users/sociofriend/source/repos/User.Management.API/User.Management.API/bin/Debug/net6.0/runtimes/win/lib/net6.0/System.Drawing.Common.dll
+C:/Users/sociofriend/source/repos/User.Management.API/User.Management.API/bin/Debug/net6.0/runtimes/win/lib/net6.0/System.Runtime.Caching.dll
+C:/Users/sociofriend/source/repos/User.Management.API/User.Management.API/bin/Debug/net6.0/runtimes/win/lib/net6.0/System.Security.Cryptography.ProtectedData.dll
+C:/Users/sociofriend/source/repos/User.Management.API/User.Management.API/bin/Debug/net6.0/runtimes/browser/lib/net6.0/System.Text.Encodings.Web.dll
+C:/Users/sociofriend/source/repos/User.Management.API/User.Management.API/bin/Debug/net6.0/runtimes/win/lib/net6.0/System.Windows.Extensions.dll
+C:/Users/sociofriend/source/repos/User.Management.API/User.Management.API/obj/Debug/net6.0/User.Management.API.csproj.AssemblyReference.cache
+C:/Users/sociofriend/source/repos/User.Management.API/User.Management.API/obj/Debug/net6.0/User.Management.API.GeneratedMSBuildEditorConfig.editorconfig
+C:/Users/sociofriend/source/repos/User.Management.API/User.Management.API/obj/Debug/net6.0/User.Management.API.AssemblyInfoInputs.cache
+C:/Users/sociofriend/source/repos/User.Management.API/User.Management.API/obj/Debug/net6.0/User.Management.API.AssemblyInfo.cs
+C:/Users/sociofriend/source/repos/User.Management.API/User.Management.API/obj/Debug/net6.0/User.Management.API.csproj.CoreCompileInputs.cache
+C:/Users/sociofriend/source/repos/User.Management.API/User.Management.API/obj/Debug/net6.0/User.Management.API.MvcApplicationPartsAssemblyInfo.cs
+C:/Users/sociofriend/source/repos/User.Management.API/User.Management.API/obj/Debug/net6.0/User.Management.API.MvcApplicationPartsAssemblyInfo.cache
+C:/Users/sociofriend/source/repos/User.Management.API/User.Management.API/obj/Debug/net6.0/staticwebassets/msbuild.User.Management.API.Microsoft.AspNetCore.StaticWebAssets.props
+C:/Users/sociofriend/source/repos/User.Management.API/User.Management.API/obj/Debug/net6.0/staticwebassets/msbuild.build.User.Management.API.props
+C:/Users/sociofriend/source/repos/User.Management.API/User.Management.API/obj/Debug/net6.0/staticwebassets/msbuild.buildMultiTargeting.User.Management.API.props
+C:/Users/sociofriend/source/repos/User.Management.API/User.Management.API/obj/Debug/net6.0/staticwebassets/msbuild.buildTransitive.User.Management.API.props
+C:/Users/sociofriend/source/repos/User.Management.API/User.Management.API/obj/Debug/net6.0/staticwebassets.pack.json
+C:/Users/sociofriend/source/repos/User.Management.API/User.Management.API/obj/Debug/net6.0/staticwebassets.build.json
+C:/Users/sociofriend/source/repos/User.Management.API/User.Management.API/obj/Debug/net6.0/staticwebassets.development.json
+C:/Users/sociofriend/source/repos/User.Management.API/User.Management.API/obj/Debug/net6.0/scopedcss/bundle/User.Management.API.styles.css
+C:/Users/sociofriend/source/repos/User.Management.API/User.Management.API/obj/Debug/net6.0/User.Management.API.csproj.CopyComplete
+C:/Users/sociofriend/source/repos/User.Management.API/User.Management.API/obj/Debug/net6.0/User.Management.API.dll
+C:/Users/sociofriend/source/repos/User.Management.API/User.Management.API/obj/Debug/net6.0/refint/User.Management.API.dll
+C:/Users/sociofriend/source/repos/User.Management.API/User.Management.API/obj/Debug/net6.0/User.Management.API.pdb
+C:/Users/sociofriend/source/repos/User.Management.API/User.Management.API/obj/Debug/net6.0/User.Management.API.genruntimeconfig.cache
+C:/Users/sociofriend/source/repos/User.Management.API/User.Management.API/obj/Debug/net6.0/ref/User.Management.API.dll
+/Volumes/[C] Windows 11/Users/sociofriend/source/repos/User.Management.API/User.Management.API/bin/Debug/net6.0/User.Management.API.dll
+/Volumes/[C] Windows 11/Users/sociofriend/source/repos/User.Management.API/User.Management.API/bin/Debug/net6.0/Microsoft.AspNetCore.Identity.EntityFrameworkCore.dll
+/Volumes/[C] Windows 11/Users/sociofriend/source/repos/User.Management.API/User.Management.API/bin/Debug/net6.0/Microsoft.EntityFrameworkCore.dll
+/Volumes/[C] Windows 11/Users/sociofriend/source/repos/User.Management.API/User.Management.API/bin/Debug/net6.0/Microsoft.EntityFrameworkCore.Abstractions.dll
+/Volumes/[C] Windows 11/Users/sociofriend/source/repos/User.Management.API/User.Management.API/bin/Debug/net6.0/Microsoft.EntityFrameworkCore.Relational.dll
+/Volumes/[C] Windows 11/Users/sociofriend/source/repos/User.Management.API/User.Management.API/bin/Debug/net6.0/Microsoft.EntityFrameworkCore.SqlServer.dll
+/Volumes/[C] Windows 11/Users/sociofriend/source/repos/User.Management.API/User.Management.API/bin/Debug/net6.0/Microsoft.Extensions.Caching.Abstractions.dll
+/Volumes/[C] Windows 11/Users/sociofriend/source/repos/User.Management.API/User.Management.API/bin/Debug/net6.0/Microsoft.Extensions.Caching.Memory.dll
+/Volumes/[C] Windows 11/Users/sociofriend/source/repos/User.Management.API/User.Management.API/bin/Debug/net6.0/Microsoft.Extensions.Configuration.Abstractions.dll
+/Volumes/[C] Windows 11/Users/sociofriend/source/repos/User.Management.API/User.Management.API/bin/Debug/net6.0/Microsoft.Extensions.DependencyInjection.dll
+/Volumes/[C] Windows 11/Users/sociofriend/source/repos/User.Management.API/User.Management.API/bin/Debug/net6.0/Microsoft.Extensions.DependencyInjection.Abstractions.dll
+/Volumes/[C] Windows 11/Users/sociofriend/source/repos/User.Management.API/User.Management.API/bin/Debug/net6.0/Microsoft.Extensions.Logging.dll
+/Volumes/[C] Windows 11/Users/sociofriend/source/repos/User.Management.API/User.Management.API/bin/Debug/net6.0/Microsoft.Extensions.Logging.Abstractions.dll
+/Volumes/[C] Windows 11/Users/sociofriend/source/repos/User.Management.API/User.Management.API/bin/Debug/net6.0/Microsoft.Extensions.Options.dll
+/Volumes/[C] Windows 11/Users/sociofriend/source/repos/User.Management.API/User.Management.API/bin/Debug/net6.0/Microsoft.Extensions.Primitives.dll
+/Volumes/[C] Windows 11/Users/sociofriend/source/repos/User.Management.API/User.Management.API/bin/Debug/net6.0/Microsoft.Identity.Client.dll
+/Volumes/[C] Windows 11/Users/sociofriend/source/repos/User.Management.API/User.Management.API/bin/Debug/net6.0/Microsoft.OpenApi.dll
+/Volumes/[C] Windows 11/Users/sociofriend/source/repos/User.Management.API/User.Management.API/bin/Debug/net6.0/Microsoft.SqlServer.Server.dll
+/Volumes/[C] Windows 11/Users/sociofriend/source/repos/User.Management.API/User.Management.API/bin/Debug/net6.0/Swashbuckle.AspNetCore.Swagger.dll
+/Volumes/[C] Windows 11/Users/sociofriend/source/repos/User.Management.API/User.Management.API/bin/Debug/net6.0/Swashbuckle.AspNetCore.SwaggerGen.dll
+/Volumes/[C] Windows 11/Users/sociofriend/source/repos/User.Management.API/User.Management.API/bin/Debug/net6.0/Swashbuckle.AspNetCore.SwaggerUI.dll
+/Volumes/[C] Windows 11/Users/sociofriend/source/repos/User.Management.API/User.Management.API/bin/Debug/net6.0/System.Configuration.ConfigurationManager.dll
+/Volumes/[C] Windows 11/Users/sociofriend/source/repos/User.Management.API/User.Management.API/bin/Debug/net6.0/System.Text.Encodings.Web.dll
+/Volumes/[C] Windows 11/Users/sociofriend/source/repos/User.Management.API/User.Management.API/bin/Debug/net6.0/System.Text.Json.dll
+/Volumes/[C] Windows 11/Users/sociofriend/source/repos/User.Management.API/User.Management.API/bin/Debug/net6.0/runtimes/win/lib/net6.0/Microsoft.Data.SqlClient.dll
+/Volumes/[C] Windows 11/Users/sociofriend/source/repos/User.Management.API/User.Management.API/bin/Debug/net6.0/runtimes/win-arm64/native/Microsoft.Data.SqlClient.SNI.dll
+/Volumes/[C] Windows 11/Users/sociofriend/source/repos/User.Management.API/User.Management.API/bin/Debug/net6.0/appsettings.Development.json
+/Volumes/[C] Windows 11/Users/sociofriend/source/repos/User.Management.API/User.Management.API/bin/Debug/net6.0/appsettings.json
+/Volumes/[C] Windows 11/Users/sociofriend/source/repos/User.Management.API/User.Management.API/bin/Debug/net6.0/User.Management.API
+/Volumes/[C] Windows 11/Users/sociofriend/source/repos/User.Management.API/User.Management.API/bin/Debug/net6.0/User.Management.API.deps.json
+/Volumes/[C] Windows 11/Users/sociofriend/source/repos/User.Management.API/User.Management.API/bin/Debug/net6.0/User.Management.API.runtimeconfig.json
+/Volumes/[C] Windows 11/Users/sociofriend/source/repos/User.Management.API/User.Management.API/bin/Debug/net6.0/Azure.Core.dll
+/Volumes/[C] Windows 11/Users/sociofriend/source/repos/User.Management.API/User.Management.API/bin/Debug/net6.0/Azure.Identity.dll
+/Volumes/[C] Windows 11/Users/sociofriend/source/repos/User.Management.API/User.Management.API/bin/Debug/net6.0/Humanizer.dll
+/Volumes/[C] Windows 11/Users/sociofriend/source/repos/User.Management.API/User.Management.API/bin/Debug/net6.0/Microsoft.AspNetCore.Authentication.JwtBearer.dll
+/Volumes/[C] Windows 11/Users/sociofriend/source/repos/User.Management.API/User.Management.API/bin/Debug/net6.0/Microsoft.AspNetCore.Cryptography.Internal.dll
+/Volumes/[C] Windows 11/Users/sociofriend/source/repos/User.Management.API/User.Management.API/bin/Debug/net6.0/Microsoft.AspNetCore.Cryptography.KeyDerivation.dll
+/Volumes/[C] Windows 11/Users/sociofriend/source/repos/User.Management.API/User.Management.API/bin/Debug/net6.0/Microsoft.Bcl.AsyncInterfaces.dll
+/Volumes/[C] Windows 11/Users/sociofriend/source/repos/User.Management.API/User.Management.API/bin/Debug/net6.0/Microsoft.Data.SqlClient.dll
+/Volumes/[C] Windows 11/Users/sociofriend/source/repos/User.Management.API/User.Management.API/bin/Debug/net6.0/Microsoft.EntityFrameworkCore.Design.dll
+/Volumes/[C] Windows 11/Users/sociofriend/source/repos/User.Management.API/User.Management.API/bin/Debug/net6.0/Microsoft.Extensions.DependencyModel.dll
+/Volumes/[C] Windows 11/Users/sociofriend/source/repos/User.Management.API/User.Management.API/bin/Debug/net6.0/Microsoft.Extensions.Identity.Core.dll
+/Volumes/[C] Windows 11/Users/sociofriend/source/repos/User.Management.API/User.Management.API/bin/Debug/net6.0/Microsoft.Extensions.Identity.Stores.dll
+/Volumes/[C] Windows 11/Users/sociofriend/source/repos/User.Management.API/User.Management.API/bin/Debug/net6.0/Microsoft.Identity.Client.Extensions.Msal.dll
+/Volumes/[C] Windows 11/Users/sociofriend/source/repos/User.Management.API/User.Management.API/bin/Debug/net6.0/Microsoft.IdentityModel.Abstractions.dll
+/Volumes/[C] Windows 11/Users/sociofriend/source/repos/User.Management.API/User.Management.API/bin/Debug/net6.0/Microsoft.IdentityModel.JsonWebTokens.dll
+/Volumes/[C] Windows 11/Users/sociofriend/source/repos/User.Management.API/User.Management.API/bin/Debug/net6.0/Microsoft.IdentityModel.Logging.dll
+/Volumes/[C] Windows 11/Users/sociofriend/source/repos/User.Management.API/User.Management.API/bin/Debug/net6.0/Microsoft.IdentityModel.Protocols.dll
+/Volumes/[C] Windows 11/Users/sociofriend/source/repos/User.Management.API/User.Management.API/bin/Debug/net6.0/Microsoft.IdentityModel.Protocols.OpenIdConnect.dll
+/Volumes/[C] Windows 11/Users/sociofriend/source/repos/User.Management.API/User.Management.API/bin/Debug/net6.0/Microsoft.IdentityModel.Tokens.dll
+/Volumes/[C] Windows 11/Users/sociofriend/source/repos/User.Management.API/User.Management.API/bin/Debug/net6.0/Microsoft.Win32.SystemEvents.dll
+/Volumes/[C] Windows 11/Users/sociofriend/source/repos/User.Management.API/User.Management.API/bin/Debug/net6.0/Mono.TextTemplating.dll
+/Volumes/[C] Windows 11/Users/sociofriend/source/repos/User.Management.API/User.Management.API/bin/Debug/net6.0/System.CodeDom.dll
+/Volumes/[C] Windows 11/Users/sociofriend/source/repos/User.Management.API/User.Management.API/bin/Debug/net6.0/System.Drawing.Common.dll
+/Volumes/[C] Windows 11/Users/sociofriend/source/repos/User.Management.API/User.Management.API/bin/Debug/net6.0/System.IdentityModel.Tokens.Jwt.dll
+/Volumes/[C] Windows 11/Users/sociofriend/source/repos/User.Management.API/User.Management.API/bin/Debug/net6.0/System.Memory.Data.dll
+/Volumes/[C] Windows 11/Users/sociofriend/source/repos/User.Management.API/User.Management.API/bin/Debug/net6.0/System.Runtime.Caching.dll
+/Volumes/[C] Windows 11/Users/sociofriend/source/repos/User.Management.API/User.Management.API/bin/Debug/net6.0/System.Security.Cryptography.ProtectedData.dll
+/Volumes/[C] Windows 11/Users/sociofriend/source/repos/User.Management.API/User.Management.API/bin/Debug/net6.0/System.Security.Permissions.dll
+/Volumes/[C] Windows 11/Users/sociofriend/source/repos/User.Management.API/User.Management.API/bin/Debug/net6.0/System.Windows.Extensions.dll
+/Volumes/[C] Windows 11/Users/sociofriend/source/repos/User.Management.API/User.Management.API/bin/Debug/net6.0/runtimes/unix/lib/net6.0/Microsoft.Data.SqlClient.dll
+/Volumes/[C] Windows 11/Users/sociofriend/source/repos/User.Management.API/User.Management.API/bin/Debug/net6.0/runtimes/win-arm/native/Microsoft.Data.SqlClient.SNI.dll
+/Volumes/[C] Windows 11/Users/sociofriend/source/repos/User.Management.API/User.Management.API/bin/Debug/net6.0/runtimes/win-x64/native/Microsoft.Data.SqlClient.SNI.dll
+/Volumes/[C] Windows 11/Users/sociofriend/source/repos/User.Management.API/User.Management.API/bin/Debug/net6.0/runtimes/win-x86/native/Microsoft.Data.SqlClient.SNI.dll
+/Volumes/[C] Windows 11/Users/sociofriend/source/repos/User.Management.API/User.Management.API/bin/Debug/net6.0/runtimes/win/lib/net6.0/Microsoft.Win32.SystemEvents.dll
+/Volumes/[C] Windows 11/Users/sociofriend/source/repos/User.Management.API/User.Management.API/bin/Debug/net6.0/runtimes/unix/lib/net6.0/System.Drawing.Common.dll
+/Volumes/[C] Windows 11/Users/sociofriend/source/repos/User.Management.API/User.Management.API/bin/Debug/net6.0/runtimes/win/lib/net6.0/System.Drawing.Common.dll
+/Volumes/[C] Windows 11/Users/sociofriend/source/repos/User.Management.API/User.Management.API/bin/Debug/net6.0/runtimes/win/lib/net6.0/System.Runtime.Caching.dll
+/Volumes/[C] Windows 11/Users/sociofriend/source/repos/User.Management.API/User.Management.API/bin/Debug/net6.0/runtimes/win/lib/net6.0/System.Security.Cryptography.ProtectedData.dll
+/Volumes/[C] Windows 11/Users/sociofriend/source/repos/User.Management.API/User.Management.API/bin/Debug/net6.0/runtimes/browser/lib/net6.0/System.Text.Encodings.Web.dll
+/Volumes/[C] Windows 11/Users/sociofriend/source/repos/User.Management.API/User.Management.API/bin/Debug/net6.0/runtimes/win/lib/net6.0/System.Windows.Extensions.dll
+/Volumes/[C] Windows 11/Users/sociofriend/source/repos/User.Management.API/User.Management.API/obj/Debug/net6.0/User.Management.API.csproj.AssemblyReference.cache
+/Volumes/[C] Windows 11/Users/sociofriend/source/repos/User.Management.API/User.Management.API/obj/Debug/net6.0/User.Management.API.GeneratedMSBuildEditorConfig.editorconfig
+/Volumes/[C] Windows 11/Users/sociofriend/source/repos/User.Management.API/User.Management.API/obj/Debug/net6.0/User.Management.API.AssemblyInfoInputs.cache
+/Volumes/[C] Windows 11/Users/sociofriend/source/repos/User.Management.API/User.Management.API/obj/Debug/net6.0/User.Management.API.AssemblyInfo.cs
+/Volumes/[C] Windows 11/Users/sociofriend/source/repos/User.Management.API/User.Management.API/obj/Debug/net6.0/User.Management.API.csproj.CoreCompileInputs.cache
+/Volumes/[C] Windows 11/Users/sociofriend/source/repos/User.Management.API/User.Management.API/obj/Debug/net6.0/User.Management.API.MvcApplicationPartsAssemblyInfo.cs
+/Volumes/[C] Windows 11/Users/sociofriend/source/repos/User.Management.API/User.Management.API/obj/Debug/net6.0/User.Management.API.MvcApplicationPartsAssemblyInfo.cache
+/Volumes/[C] Windows 11/Users/sociofriend/source/repos/User.Management.API/User.Management.API/obj/Debug/net6.0/staticwebassets/msbuild.User.Management.API.Microsoft.AspNetCore.StaticWebAssets.props
+/Volumes/[C] Windows 11/Users/sociofriend/source/repos/User.Management.API/User.Management.API/obj/Debug/net6.0/staticwebassets/msbuild.build.User.Management.API.props
+/Volumes/[C] Windows 11/Users/sociofriend/source/repos/User.Management.API/User.Management.API/obj/Debug/net6.0/staticwebassets/msbuild.buildMultiTargeting.User.Management.API.props
+/Volumes/[C] Windows 11/Users/sociofriend/source/repos/User.Management.API/User.Management.API/obj/Debug/net6.0/staticwebassets/msbuild.buildTransitive.User.Management.API.props
+/Volumes/[C] Windows 11/Users/sociofriend/source/repos/User.Management.API/User.Management.API/obj/Debug/net6.0/staticwebassets.pack.json
+/Volumes/[C] Windows 11/Users/sociofriend/source/repos/User.Management.API/User.Management.API/obj/Debug/net6.0/staticwebassets.build.json
+/Volumes/[C] Windows 11/Users/sociofriend/source/repos/User.Management.API/User.Management.API/obj/Debug/net6.0/staticwebassets.development.json
+/Volumes/[C] Windows 11/Users/sociofriend/source/repos/User.Management.API/User.Management.API/obj/Debug/net6.0/scopedcss/bundle/User.Management.API.styles.css
+/Volumes/[C] Windows 11/Users/sociofriend/source/repos/User.Management.API/User.Management.API/obj/Debug/net6.0/User.Management.API.csproj.CopyComplete
+/Volumes/[C] Windows 11/Users/sociofriend/source/repos/User.Management.API/User.Management.API/obj/Debug/net6.0/User.Management.API.dll
+/Volumes/[C] Windows 11/Users/sociofriend/source/repos/User.Management.API/User.Management.API/obj/Debug/net6.0/refint/User.Management.API.dll
+/Volumes/[C] Windows 11/Users/sociofriend/source/repos/User.Management.API/User.Management.API/obj/Debug/net6.0/User.Management.API.pdb
+/Volumes/[C] Windows 11/Users/sociofriend/source/repos/User.Management.API/User.Management.API/obj/Debug/net6.0/User.Management.API.genruntimeconfig.cache
+/Users/sociofriend/Desktop/User.Management.API/User.Management.API/bin/Debug/net6.0/appsettings.Development.json
+/Users/sociofriend/Desktop/User.Management.API/User.Management.API/bin/Debug/net6.0/appsettings.json
+/Users/sociofriend/Desktop/User.Management.API/User.Management.API/bin/Debug/net6.0/User.Management.API
+/Users/sociofriend/Desktop/User.Management.API/User.Management.API/bin/Debug/net6.0/User.Management.API.deps.json
+/Users/sociofriend/Desktop/User.Management.API/User.Management.API/bin/Debug/net6.0/User.Management.API.runtimeconfig.json
+/Users/sociofriend/Desktop/User.Management.API/User.Management.API/bin/Debug/net6.0/User.Management.API.dll
+/Users/sociofriend/Desktop/User.Management.API/User.Management.API/bin/Debug/net6.0/User.Management.API.pdb
+/Users/sociofriend/Desktop/User.Management.API/User.Management.API/bin/Debug/net6.0/Azure.Core.dll
+/Users/sociofriend/Desktop/User.Management.API/User.Management.API/bin/Debug/net6.0/Azure.Identity.dll
+/Users/sociofriend/Desktop/User.Management.API/User.Management.API/bin/Debug/net6.0/Humanizer.dll
+/Users/sociofriend/Desktop/User.Management.API/User.Management.API/bin/Debug/net6.0/MailKit.dll
+/Users/sociofriend/Desktop/User.Management.API/User.Management.API/bin/Debug/net6.0/Microsoft.AspNetCore.Authentication.JwtBearer.dll
+/Users/sociofriend/Desktop/User.Management.API/User.Management.API/bin/Debug/net6.0/Microsoft.AspNetCore.Cryptography.Internal.dll
+/Users/sociofriend/Desktop/User.Management.API/User.Management.API/bin/Debug/net6.0/Microsoft.AspNetCore.Cryptography.KeyDerivation.dll
+/Users/sociofriend/Desktop/User.Management.API/User.Management.API/bin/Debug/net6.0/Microsoft.AspNetCore.Identity.EntityFrameworkCore.dll
+/Users/sociofriend/Desktop/User.Management.API/User.Management.API/bin/Debug/net6.0/Microsoft.Bcl.AsyncInterfaces.dll
+/Users/sociofriend/Desktop/User.Management.API/User.Management.API/bin/Debug/net6.0/Microsoft.Data.SqlClient.dll
+/Users/sociofriend/Desktop/User.Management.API/User.Management.API/bin/Debug/net6.0/Microsoft.EntityFrameworkCore.dll
+/Users/sociofriend/Desktop/User.Management.API/User.Management.API/bin/Debug/net6.0/Microsoft.EntityFrameworkCore.Abstractions.dll
+/Users/sociofriend/Desktop/User.Management.API/User.Management.API/bin/Debug/net6.0/Microsoft.EntityFrameworkCore.Design.dll
+/Users/sociofriend/Desktop/User.Management.API/User.Management.API/bin/Debug/net6.0/Microsoft.EntityFrameworkCore.Relational.dll
+/Users/sociofriend/Desktop/User.Management.API/User.Management.API/bin/Debug/net6.0/Microsoft.EntityFrameworkCore.SqlServer.dll
+/Users/sociofriend/Desktop/User.Management.API/User.Management.API/bin/Debug/net6.0/Microsoft.Extensions.Caching.Abstractions.dll
+/Users/sociofriend/Desktop/User.Management.API/User.Management.API/bin/Debug/net6.0/Microsoft.Extensions.Caching.Memory.dll
+/Users/sociofriend/Desktop/User.Management.API/User.Management.API/bin/Debug/net6.0/Microsoft.Extensions.Configuration.Abstractions.dll
+/Users/sociofriend/Desktop/User.Management.API/User.Management.API/bin/Debug/net6.0/Microsoft.Extensions.DependencyInjection.dll
+/Users/sociofriend/Desktop/User.Management.API/User.Management.API/bin/Debug/net6.0/Microsoft.Extensions.DependencyInjection.Abstractions.dll
+/Users/sociofriend/Desktop/User.Management.API/User.Management.API/bin/Debug/net6.0/Microsoft.Extensions.DependencyModel.dll
+/Users/sociofriend/Desktop/User.Management.API/User.Management.API/bin/Debug/net6.0/Microsoft.Extensions.Identity.Core.dll
+/Users/sociofriend/Desktop/User.Management.API/User.Management.API/bin/Debug/net6.0/Microsoft.Extensions.Identity.Stores.dll
+/Users/sociofriend/Desktop/User.Management.API/User.Management.API/bin/Debug/net6.0/Microsoft.Extensions.Logging.dll
+/Users/sociofriend/Desktop/User.Management.API/User.Management.API/bin/Debug/net6.0/Microsoft.Extensions.Logging.Abstractions.dll
+/Users/sociofriend/Desktop/User.Management.API/User.Management.API/bin/Debug/net6.0/Microsoft.Extensions.Options.dll
+/Users/sociofriend/Desktop/User.Management.API/User.Management.API/bin/Debug/net6.0/Microsoft.Extensions.Primitives.dll
+/Users/sociofriend/Desktop/User.Management.API/User.Management.API/bin/Debug/net6.0/Microsoft.Identity.Client.dll
+/Users/sociofriend/Desktop/User.Management.API/User.Management.API/bin/Debug/net6.0/Microsoft.Identity.Client.Extensions.Msal.dll
+/Users/sociofriend/Desktop/User.Management.API/User.Management.API/bin/Debug/net6.0/Microsoft.IdentityModel.Abstractions.dll
+/Users/sociofriend/Desktop/User.Management.API/User.Management.API/bin/Debug/net6.0/Microsoft.IdentityModel.JsonWebTokens.dll
+/Users/sociofriend/Desktop/User.Management.API/User.Management.API/bin/Debug/net6.0/Microsoft.IdentityModel.Logging.dll
+/Users/sociofriend/Desktop/User.Management.API/User.Management.API/bin/Debug/net6.0/Microsoft.IdentityModel.Protocols.dll
+/Users/sociofriend/Desktop/User.Management.API/User.Management.API/bin/Debug/net6.0/Microsoft.IdentityModel.Protocols.OpenIdConnect.dll
+/Users/sociofriend/Desktop/User.Management.API/User.Management.API/bin/Debug/net6.0/Microsoft.IdentityModel.Tokens.dll
+/Users/sociofriend/Desktop/User.Management.API/User.Management.API/bin/Debug/net6.0/Microsoft.OpenApi.dll
+/Users/sociofriend/Desktop/User.Management.API/User.Management.API/bin/Debug/net6.0/Microsoft.SqlServer.Server.dll
+/Users/sociofriend/Desktop/User.Management.API/User.Management.API/bin/Debug/net6.0/Microsoft.Win32.SystemEvents.dll
+/Users/sociofriend/Desktop/User.Management.API/User.Management.API/bin/Debug/net6.0/MimeKit.dll
+/Users/sociofriend/Desktop/User.Management.API/User.Management.API/bin/Debug/net6.0/Mono.TextTemplating.dll
+/Users/sociofriend/Desktop/User.Management.API/User.Management.API/bin/Debug/net6.0/NETCore.MailKit.dll
+/Users/sociofriend/Desktop/User.Management.API/User.Management.API/bin/Debug/net6.0/BouncyCastle.Crypto.dll
+/Users/sociofriend/Desktop/User.Management.API/User.Management.API/bin/Debug/net6.0/Swashbuckle.AspNetCore.Swagger.dll
+/Users/sociofriend/Desktop/User.Management.API/User.Management.API/bin/Debug/net6.0/Swashbuckle.AspNetCore.SwaggerGen.dll
+/Users/sociofriend/Desktop/User.Management.API/User.Management.API/bin/Debug/net6.0/Swashbuckle.AspNetCore.SwaggerUI.dll
+/Users/sociofriend/Desktop/User.Management.API/User.Management.API/bin/Debug/net6.0/System.CodeDom.dll
+/Users/sociofriend/Desktop/User.Management.API/User.Management.API/bin/Debug/net6.0/System.Configuration.ConfigurationManager.dll
+/Users/sociofriend/Desktop/User.Management.API/User.Management.API/bin/Debug/net6.0/System.Drawing.Common.dll
+/Users/sociofriend/Desktop/User.Management.API/User.Management.API/bin/Debug/net6.0/System.IdentityModel.Tokens.Jwt.dll
+/Users/sociofriend/Desktop/User.Management.API/User.Management.API/bin/Debug/net6.0/System.Memory.Data.dll
+/Users/sociofriend/Desktop/User.Management.API/User.Management.API/bin/Debug/net6.0/System.Runtime.Caching.dll
+/Users/sociofriend/Desktop/User.Management.API/User.Management.API/bin/Debug/net6.0/System.Security.Cryptography.ProtectedData.dll
+/Users/sociofriend/Desktop/User.Management.API/User.Management.API/bin/Debug/net6.0/System.Security.Permissions.dll
+/Users/sociofriend/Desktop/User.Management.API/User.Management.API/bin/Debug/net6.0/System.Text.Encodings.Web.dll
+/Users/sociofriend/Desktop/User.Management.API/User.Management.API/bin/Debug/net6.0/System.Text.Json.dll
+/Users/sociofriend/Desktop/User.Management.API/User.Management.API/bin/Debug/net6.0/System.Windows.Extensions.dll
+/Users/sociofriend/Desktop/User.Management.API/User.Management.API/bin/Debug/net6.0/runtimes/unix/lib/net6.0/Microsoft.Data.SqlClient.dll
+/Users/sociofriend/Desktop/User.Management.API/User.Management.API/bin/Debug/net6.0/runtimes/win/lib/net6.0/Microsoft.Data.SqlClient.dll
+/Users/sociofriend/Desktop/User.Management.API/User.Management.API/bin/Debug/net6.0/runtimes/win-arm/native/Microsoft.Data.SqlClient.SNI.dll
+/Users/sociofriend/Desktop/User.Management.API/User.Management.API/bin/Debug/net6.0/runtimes/win-arm64/native/Microsoft.Data.SqlClient.SNI.dll
+/Users/sociofriend/Desktop/User.Management.API/User.Management.API/bin/Debug/net6.0/runtimes/win-x64/native/Microsoft.Data.SqlClient.SNI.dll
+/Users/sociofriend/Desktop/User.Management.API/User.Management.API/bin/Debug/net6.0/runtimes/win-x86/native/Microsoft.Data.SqlClient.SNI.dll
+/Users/sociofriend/Desktop/User.Management.API/User.Management.API/bin/Debug/net6.0/runtimes/win/lib/net6.0/Microsoft.Win32.SystemEvents.dll
+/Users/sociofriend/Desktop/User.Management.API/User.Management.API/bin/Debug/net6.0/runtimes/unix/lib/net6.0/System.Drawing.Common.dll
+/Users/sociofriend/Desktop/User.Management.API/User.Management.API/bin/Debug/net6.0/runtimes/win/lib/net6.0/System.Drawing.Common.dll
+/Users/sociofriend/Desktop/User.Management.API/User.Management.API/bin/Debug/net6.0/runtimes/win/lib/net6.0/System.Runtime.Caching.dll
+/Users/sociofriend/Desktop/User.Management.API/User.Management.API/bin/Debug/net6.0/runtimes/win/lib/net6.0/System.Security.Cryptography.ProtectedData.dll
+/Users/sociofriend/Desktop/User.Management.API/User.Management.API/bin/Debug/net6.0/runtimes/browser/lib/net6.0/System.Text.Encodings.Web.dll
+/Users/sociofriend/Desktop/User.Management.API/User.Management.API/bin/Debug/net6.0/runtimes/win/lib/net6.0/System.Windows.Extensions.dll
+/Users/sociofriend/Desktop/User.Management.API/User.Management.API/bin/Debug/net6.0/User.Management.Services.dll
+/Users/sociofriend/Desktop/User.Management.API/User.Management.API/bin/Debug/net6.0/User.Management.Services.pdb
+/Users/sociofriend/Desktop/User.Management.API/User.Management.API/obj/Debug/net6.0/User.Management.API.csproj.AssemblyReference.cache
+/Users/sociofriend/Desktop/User.Management.API/User.Management.API/obj/Debug/net6.0/User.Management.API.GeneratedMSBuildEditorConfig.editorconfig
+/Users/sociofriend/Desktop/User.Management.API/User.Management.API/obj/Debug/net6.0/User.Management.API.AssemblyInfoInputs.cache
+/Users/sociofriend/Desktop/User.Management.API/User.Management.API/obj/Debug/net6.0/User.Management.API.AssemblyInfo.cs
+/Users/sociofriend/Desktop/User.Management.API/User.Management.API/obj/Debug/net6.0/User.Management.API.csproj.CoreCompileInputs.cache
+/Users/sociofriend/Desktop/User.Management.API/User.Management.API/obj/Debug/net6.0/User.Management.API.MvcApplicationPartsAssemblyInfo.cs
+/Users/sociofriend/Desktop/User.Management.API/User.Management.API/obj/Debug/net6.0/User.Management.API.MvcApplicationPartsAssemblyInfo.cache
+/Users/sociofriend/Desktop/User.Management.API/User.Management.API/obj/Debug/net6.0/staticwebassets/msbuild.User.Management.API.Microsoft.AspNetCore.StaticWebAssets.props
+/Users/sociofriend/Desktop/User.Management.API/User.Management.API/obj/Debug/net6.0/staticwebassets/msbuild.build.User.Management.API.props
+/Users/sociofriend/Desktop/User.Management.API/User.Management.API/obj/Debug/net6.0/staticwebassets/msbuild.buildMultiTargeting.User.Management.API.props
+/Users/sociofriend/Desktop/User.Management.API/User.Management.API/obj/Debug/net6.0/staticwebassets/msbuild.buildTransitive.User.Management.API.props
+/Users/sociofriend/Desktop/User.Management.API/User.Management.API/obj/Debug/net6.0/staticwebassets.pack.json
+/Users/sociofriend/Desktop/User.Management.API/User.Management.API/obj/Debug/net6.0/staticwebassets.build.json
+/Users/sociofriend/Desktop/User.Management.API/User.Management.API/obj/Debug/net6.0/staticwebassets.development.json
+/Users/sociofriend/Desktop/User.Management.API/User.Management.API/obj/Debug/net6.0/scopedcss/bundle/User.Management.API.styles.css
+/Users/sociofriend/Desktop/User.Management.API/User.Management.API/obj/Debug/net6.0/User.Management.API.csproj.CopyComplete
+/Users/sociofriend/Desktop/User.Management.API/User.Management.API/obj/Debug/net6.0/User.Management.API.dll
+/Users/sociofriend/Desktop/User.Management.API/User.Management.API/obj/Debug/net6.0/refint/User.Management.API.dll
+/Users/sociofriend/Desktop/User.Management.API/User.Management.API/obj/Debug/net6.0/User.Management.API.pdb
+/Users/sociofriend/Desktop/User.Management.API/User.Management.API/obj/Debug/net6.0/User.Management.API.genruntimeconfig.cache
+/Users/sociofriend/Desktop/User.Management.API/User.Management.API/obj/Debug/net6.0/ref/User.Management.API.dll
