@@ -1,6 +1,6 @@
 using System.ComponentModel.DataAnnotations;
 
-namespace User.Management.API.Models.Authentication.Login;
+namespace User.Management.Services.Models.Authentication.Login;
 public class LoginModel
 {
     [Required(ErrorMessage ="Username is required.")]

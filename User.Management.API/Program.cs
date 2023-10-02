@@ -57,6 +57,7 @@ public class Program
 
         builder.Services.AddSingleton(emailConfig);
         builder.Services.AddScoped<IEmailService, EmailService>();
+        builder.Services.AddScoped<IUserManagement, UserManagement>();
         builder.Services.AddControllers();
         // Learn more about configuring Swagger/OpenAPI at https://aka.ms/aspnetcore/swashbuckle
         builder.Services.AddEndpointsApiExplorer();
