@@ -7,9 +7,9 @@ using Microsoft.AspNetCore.Identity;
 using Microsoft.AspNetCore.Mvc;
 using Microsoft.IdentityModel.Tokens;
 using User.Management.API.Models;
-using User.Management.API.Models.Authentication.Login;
-using User.Management.API.Models.Authentication.SignUp;
 using User.Management.Services.Models;
+using User.Management.Services.Models.Authentication.SignUp;
+using User.Management.Services.Models.Authentication.Login;
 using User.Management.Services.Services;
 
 namespace User.Management.API.Controllers
@@ -24,68 +24,43 @@ namespace User.Management.API.Controllers
         private readonly SignInManager<IdentityUser> _signInManager;
 
         public IConfiguration _configuration { get; set; }
+        public IUserManagement _userManagement { get; }
 
         public AuthenticationController(UserManager<IdentityUser> userManager,
             RoleManager<IdentityRole> roleManager,
             IEmailService emailService, IConfiguration configuration,
-            SignInManager<IdentityUser> signInManager)
+            SignInManager<IdentityUser> signInManager,
+            IUserManagement userManagement)
         {
             _userManager = userManager;
             _roleManager = roleManager;
             _emailService = emailService;
             _configuration = configuration;
             _signInManager = signInManager;
+            _userManagement = userManagement;
         }
 
         [HttpPost("Register")]
-        public async Task<IActionResult> Register(RegisterUser registerUser, string role)
+        public async Task<IActionResult> Register(RegisterUser registerUser)
         {
-            //check user exists
-            var userExists = await _userManager.FindByEmailAsync(registerUser.Email);
-            if (userExists != null)
+            var tokenResponse = await _userManagement.CreateUserWithTokenAsync(registerUser);
+            if (tokenResponse.IsSuccess)
             {
-                return StatusCode(StatusCodes.Status403Forbidden,
-                    new Response { Status = "Error", Message = "User Already exists!." });
-            }
-            //if user does not exist, add user in the database
-            IdentityUser user = new()
-            {
-                Email = registerUser.Email,
-                SecurityStamp = Guid.NewGuid().ToString(),
-                UserName = registerUser.Username,
-                TwoFactorEnabled = bool.Parse(_configuration["UserSettings:TwoFactorEnabled"]!)
-            };
-
-            if (await _roleManager.RoleExistsAsync(role))
-            {
-                var result = await _userManager.CreateAsync(user, registerUser.Password); //bring changes to DB and will save changes
-                if (!result.Succeeded)
-                {
-                    return StatusCode(StatusCodes.Status500InternalServerError,
-                        new Response { Status = "Error", Message = "User not created." });
-                }
-
-                // await _userManager.AddToRoleAsync(user, role);
-
-                await _userManager.AddToRoleAsync(user, role); //DB, save changes. UserRoles table
-
-                //add token to verify the email
-                var token = await _userManager.GenerateEmailConfirmationTokenAsync(user);
-                var confirmationLink = Url.Action(nameof(ConfirmEmail), "Authentication", new { token, email = user.Email }, Request.Scheme);
-                var message = new Message(new string[] { user.Email! }, "Confirmation email link", confirmationLink!);
+                await _userManagement.AssignRoleRoUserAsync(registerUser.Roles, tokenResponse.Response.User);
+                tokenResponse.Response.IsSuccess = true;
+                var confirmationLink = Url.Action(nameof(ConfirmEmail), "Authentication", new { tokenResponse.Response.Token, email = registerUser.Email, IsSuccess = true }, Request.Scheme);
+                var message = new Message(new string[] { registerUser.Email! }, "Confirmation email link", confirmationLink!);
                 _emailService.SendEmail(message);
 
                 return StatusCode(StatusCodes.Status200OK,
-                    new Response { Status = "Success", Message = $"User created succesfully.Confirmation email sent to {user.Email}." });
+                    new Response { Status = "Success", Message = "User created successfully.", IsSuccess = true});
             }
-            else
-            {
-                return StatusCode(StatusCodes.Status500InternalServerError,
-                    new Response { Status = "Error", Message = "Role does not exist." });
-            }
+
+            return StatusCode(StatusCodes.Status500InternalServerError,
+                    new Response { Status = "Failed", Message = tokenResponse.Message, IsSuccess = false});
         }
 
-        [HttpGet("ConfirmEmail")] 
+        [HttpGet("ConfirmEmail")]
         public async Task<IActionResult> ConfirmEmail(string token, string email)
         {
             var user = await _userManager.FindByEmailAsync(email);
@@ -96,7 +71,7 @@ namespace User.Management.API.Controllers
                 if (result.Succeeded)
                 {
                     return StatusCode(StatusCodes.Status200OK,
-                        new Response { Status = "Success", Message = "Email verified successfully." });
+                        new Response { Status = "Success", Message = "Email verified successfully.", IsSuccess = true });
                 }
             }
             return StatusCode(StatusCodes.Status500InternalServerError,
@@ -119,7 +94,7 @@ namespace User.Management.API.Controllers
                 _emailService.SendEmail(message);
 
                 return StatusCode(StatusCodes.Status200OK,
-                new Response { Status = "Success", Message = $"We have sent an OTP to your email {user.Email}" });
+                new Response { Status = "Success", Message = $"We have sent a code to your email {user.Email}", IsSuccess = true });
             }
 
             if (user != null && await _userManager.CheckPasswordAsync(user, loginModel.Password))
@@ -203,7 +178,7 @@ namespace User.Management.API.Controllers
                 _emailService.SendEmail(message);
 
                 return StatusCode(StatusCodes.Status200OK,
-                    new Response { Status = "Success", Message = $"Password change email message sent  to {user.Email}.Please check your mailbox . " });
+                    new Response { Status = "Success", Message = $"Password change email message sent  to {user.Email}.Please check your mailbox . ", IsSuccess = true });
 
             }
             return StatusCode(StatusCodes.Status404NotFound,
@@ -237,7 +212,7 @@ namespace User.Management.API.Controllers
                     return Ok(ModelState);
                 }
                 return StatusCode(StatusCodes.Status200OK,
-                    new Response { Status = "Success", Message = $"Password has been successfully changed." });
+                    new Response { Status = "Success", Message = $"Password has been successfully changed.", IsSuccess = true });
             }
             return StatusCode(StatusCodes.Status400BadRequest,
                     new Response { Status = "Failed.", Message = "Could not send mail to email.Please try again later." });
