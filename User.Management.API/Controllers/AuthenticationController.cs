@@ -1,16 +1,17 @@
 ﻿using System.ComponentModel.DataAnnotations;
 using System.IdentityModel.Tokens.Jwt;
+using Microsoft.IdentityModel.Tokens;
 using System.Security.Claims;
 using System.Text;
 using Microsoft.AspNetCore.Authorization;
 using Microsoft.AspNetCore.Identity;
 using Microsoft.AspNetCore.Mvc;
-using Microsoft.IdentityModel.Tokens;
 using User.Management.API.Models;
 using User.Management.Services.Models;
 using User.Management.Services.Models.Authentication.SignUp;
 using User.Management.Services.Models.Authentication.Login;
 using User.Management.Services.Services;
+using User.Management.Services.Models.Authentication.Token;
 
 namespace User.Management.API.Controllers
 {
@@ -25,12 +26,14 @@ namespace User.Management.API.Controllers
 
         public IConfiguration _configuration { get; set; }
         public IUserManagement _userManagement { get; }
+        public TokenManagement _tokenManager { get; }
 
         public AuthenticationController(UserManager<IdentityUser> userManager,
             RoleManager<IdentityRole> roleManager,
             IEmailService emailService, IConfiguration configuration,
             SignInManager<IdentityUser> signInManager,
-            IUserManagement userManagement)
+            IUserManagement userManagement,
+            TokenManagement tokenManager)
         {
             _userManager = userManager;
             _roleManager = roleManager;
@@ -38,6 +41,7 @@ namespace User.Management.API.Controllers
             _configuration = configuration;
             _signInManager = signInManager;
             _userManagement = userManagement;
+            _tokenManager = tokenManager;
         }
 
         [HttpPost("Register")]
@@ -47,17 +51,16 @@ namespace User.Management.API.Controllers
             if (tokenResponse.IsSuccess)
             {
                 await _userManagement.AssignRoleRoUserAsync(registerUser.Roles, tokenResponse.Response.User);
-                tokenResponse.Response.IsSuccess = true;
                 var confirmationLink = Url.Action(nameof(ConfirmEmail), "Authentication", new { tokenResponse.Response.Token, email = registerUser.Email, IsSuccess = true }, Request.Scheme);
                 var message = new Message(new string[] { registerUser.Email! }, "Confirmation email link", confirmationLink!);
                 _emailService.SendEmail(message);
 
                 return StatusCode(StatusCodes.Status200OK,
-                    new Response { Status = "Success", Message = "User created successfully.", IsSuccess = true});
+                    new Response { Status = "Success", Message = "User created successfully.", IsSuccess = true });
             }
 
             return StatusCode(StatusCodes.Status500InternalServerError,
-                    new Response { Status = "Failed", Message = tokenResponse.Message, IsSuccess = false});
+                    new Response { Status = "Failed", Message = tokenResponse.Message, IsSuccess = false });
         }
 
         [HttpGet("ConfirmEmail")]
@@ -81,49 +84,21 @@ namespace User.Management.API.Controllers
         [HttpPost("login")]
         public async Task<IActionResult> Login([FromBody] LoginModel loginModel)
         {
-            //checking the user
-            var user = await _userManager.FindByNameAsync(loginModel.Username);
-
-            if (user.TwoFactorEnabled)
+            var loginOtpResponse = await _userManagement.GetOtpByLoginAsync(loginModel);
+            if (loginOtpResponse.Response == null)
             {
-                await _signInManager.SignOutAsync();
-                await _signInManager.PasswordSignInAsync(user, loginModel.Password, false, true);
-                var token = await _userManager.GenerateTwoFactorTokenAsync(user, "Email");
-
-                var message = new Message(new string[] { user.Email! }, "OTP Confirmation", token);
-                _emailService.SendEmail(message);
-
-                return StatusCode(StatusCodes.Status200OK,
-                new Response { Status = "Success", Message = $"We have sent a code to your email {user.Email}", IsSuccess = true });
+                return Unauthorized();
             }
-
-            if (user != null && await _userManager.CheckPasswordAsync(user, loginModel.Password))
+            else
             {
-                //create claim list
-                var authClaims = new List<Claim>
-                {
-                    new Claim(ClaimTypes.Name, user.UserName),
-                    new Claim(JwtRegisteredClaimNames.Jti, Guid.NewGuid().ToString())
-                };
+                var tokenResponse = await _tokenManager.AuthenticateUserAsync(loginOtpResponse.Response, loginModel);
 
-                //add roles to the client 
-                var userRoles = await _userManager.GetRolesAsync(user);
-                foreach (var role in userRoles)
-                {
-                    authClaims.Add(new Claim(ClaimTypes.Role, role));
-                }
-                //generate the token with the claims
-                var jwtToken = GetToken(authClaims); //object
-
-                //how to add the token to DB?
                 return Ok(new
                 {
-                    token = new JwtSecurityTokenHandler().WriteToken(jwtToken), //string
-                    expiration = jwtToken.ValidTo
+                    token = tokenResponse.Response.Token,
+                    expiration = tokenResponse.Response.Expiration
                 });
             }
-
-            return Unauthorized();
         }
 
         [HttpPost("login-2FA")]
@@ -137,27 +112,12 @@ namespace User.Management.API.Controllers
             {
                 if (user != null)
                 {
-                    //create claim list
-                    var authClaims = new List<Claim>
-                    {
-                        new Claim(ClaimTypes.Name, user.UserName),
-                        new Claim(JwtRegisteredClaimNames.Jti, Guid.NewGuid().ToString())
-                    };
+                    var tokenResponse = await _tokenManager.CreateTokenAndReport(user);
 
-                    //add roles to the client 
-                    var userRoles = await _userManager.GetRolesAsync(user);
-                    foreach (var role in userRoles)
-                    {
-                        authClaims.Add(new Claim(ClaimTypes.Role, role));
-                    }
-                    //generate the token with the claims
-                    var jwtToken = GetToken(authClaims); //object
-
-                    //how to add the token to DB?
                     return Ok(new
                     {
-                        token = new JwtSecurityTokenHandler().WriteToken(jwtToken), //string
-                        expiration = jwtToken.ValidTo
+                        token = tokenResponse.Response.Token,
+                        expiration = tokenResponse.Response.Expiration
                     });
                 }
             }
@@ -219,21 +179,6 @@ namespace User.Management.API.Controllers
 
 
 
-        }
-
-        private JwtSecurityToken GetToken(List<Claim> authClaims)
-        {
-            var authSigningKey = new SymmetricSecurityKey(Encoding.UTF8
-                    .GetBytes(_configuration["JWT:Secret"]!));
-            var token = new JwtSecurityToken(
-                audience: _configuration["JWT:ValidAudience"],
-                issuer: _configuration["JWT:ValidIssuer"],
-                expires: DateTime.UtcNow.AddHours(3),
-                claims: authClaims,
-                signingCredentials: new SigningCredentials(authSigningKey, SecurityAlgorithms.HmacSha256)
-            );
-
-            return token;
         }
     }
 }

@@ -3,11 +3,12 @@ using Microsoft.Extensions.Configuration;
 using User.Management.Services.Models;
 using User.Management.Services.Models.Authentication.User;
 using User.Management.Services.Models.Authentication.SignUp;
+using User.Management.Services.Models.Authentication.Login;
 
 
 namespace User.Management.Services.Services;
 
-public class UserManagement : IUserManagement
+public class UserManager : IUserManagement
 {
 
     private readonly UserManager<IdentityUser> _userManager;
@@ -16,7 +17,7 @@ public class UserManagement : IUserManagement
     public IConfiguration _configuration { get; }
 
 
-    public UserManagement(UserManager<IdentityUser> userManager,
+    public UserManager(UserManager<IdentityUser> userManager,
         RoleManager<IdentityRole> roleManager,
         SignInManager<IdentityUser> signInManager,
         IConfiguration configuration)
@@ -57,12 +58,10 @@ public class UserManagement : IUserManagement
             var token = await _userManager.GenerateEmailConfirmationTokenAsync(user);
             return new ApiResponse<CreateUserResponse>
             {
-                IsSuccess = true,
                 Response = new CreateUserResponse
                 {
                     User = user,
-                    Token = token,
-                    IsSuccess = true
+                    Token = token
                 }
             };
         }
@@ -70,7 +69,6 @@ public class UserManagement : IUserManagement
         {
             return new ApiResponse<CreateUserResponse>
             {
-                IsSuccess = false,
                 StatusCode = 500,
                 Message = "User not created."
             };
@@ -100,5 +98,56 @@ public class UserManagement : IUserManagement
             Message = "The roles assigned successfully.",
             Response = assignedRoles
         };
+    }
+
+    public async Task<ApiResponse<LoginOtpResponse>> GetOtpByLoginAsync(LoginModel loginModel)
+    {
+        var user = await _userManager.FindByNameAsync(loginModel.Username);
+        if (user != null)
+        {
+            await _signInManager.SignOutAsync();
+            await _signInManager.PasswordSignInAsync(user, loginModel.Password, false, true);
+
+            if (user.TwoFactorEnabled)
+            {
+                var token = await _userManager.GenerateTwoFactorTokenAsync(user, "Email");
+                return new ApiResponse<LoginOtpResponse>
+                {
+                    Response = new LoginOtpResponse()
+                    {
+                        User = user,
+                        Token = token,
+                        IsTwoFactorEnabled = user.TwoFactorEnabled
+                    },
+                    IsSuccess = true,
+                    StatusCode = 200,
+                    Message = $"OPT code sent to email {user.Email}"
+                };
+            }
+            else
+            {
+                return new ApiResponse<LoginOtpResponse>
+                {
+                    Response = new LoginOtpResponse()
+                    {
+                        User = user,
+                        Token = string.Empty,
+                        IsTwoFactorEnabled = user.TwoFactorEnabled
+                    },
+                    IsSuccess = true,
+                    StatusCode = 200,
+                    Message = "2FA not enabled."
+                };
+            }
+        }
+        else
+        {
+            return new ApiResponse<LoginOtpResponse>
+            {
+                IsSuccess = false,
+                StatusCode = 404,
+                Message = "User does not exist ."
+            };
+        }
     }
 }
