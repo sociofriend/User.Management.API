@@ -5,3 +5,5 @@ User.Management.API/bin
 User.Management.API/obj
 User.Management.Services/obj
 User.Management.Services/bin
+appsettings.Development.json
+
